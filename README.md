@@ -8,4 +8,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 npm install para bajar las dependencias 
 
 # ng serve
-ng server para correo el proyecto 
+ng server para correr el proyecto 
