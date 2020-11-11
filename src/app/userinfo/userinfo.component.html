@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="text-info p-5" *ngIf = "authservice.currentUser">
+            <h2 class="alldata">
+                Informacion de Usuario
+            </h2>
+            <h4><b>ID:</b>{{authservice.currentUserId}}</h4>
+            <h4><b>Email:</b>{{authservice.currentUserName}}</h4>
+            <button class="btn-danger" (click)="authservice.singout()">Salir</button><br><br>
+            
+            <div class="container">
+                <button class="btn btn-info" (click)="listar()">Listar</button>
+                <button class="btn btn-info" (click)="nuevo()" style="margin-left: 10px;">Nuevo</button>
+            </div>     
+        </div>
+</div>
